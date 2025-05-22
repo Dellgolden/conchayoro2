@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: jobs-examples
+      name: jobs-examples.yml
     steps:
       - uses: actions/download-artifact@v4
         with:
